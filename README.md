@@ -9,3 +9,13 @@ This is the number of character positions between two input strings that are dif
 *hamming "elhlo rwold" "hello world"*
 
 __6__
+
+
+####Levenshtein distance
+Measure the distance between two strings, i.e. the number of single character edits (insertions, deletions, substitutions) required to transform one string into the other.
+
+######Usage:
+
+*levenshteinDistance "helloworld" "elhlorwold"*
+
+__4__
